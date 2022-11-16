@@ -5,8 +5,12 @@ Behavioral Risk Factor Surveillance System, BRFSS.
 2015 BRFSS Survey Data and Documentation: https://www.cdc.gov/brfss/annual_data/annual_2015.html
 
 ```sh
+brew install pyenv
+
+wget https://npm.taobao.org/mirrors/python/3.6.13/Python-3.6.13.tar.xz -P ~/.pyenv/cache/
+
 # create python venv
-pipenv --python 3.9.12    # brfss-8-DjQ_GM
+pipenv --python 3.6.13    # brfss-8-DjQ_GM
 
 # install jupyterlab
 pipenv install jupyterlab
