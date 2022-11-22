@@ -4,8 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-runipy = "*"
-ipython = "==2.4.0"
+pandas = "*"
+numpy = "*"
+seaborn = "*"
+matplotlib = "*"
+jupyterlab = "*"
 
 [dev-packages]
 
